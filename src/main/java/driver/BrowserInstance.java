@@ -27,7 +27,7 @@ public class BrowserInstance {
     public static void initiateDriver(String browserName) throws IOException {
         if (browserName.equalsIgnoreCase("chrome")) {
             service = new ChromeDriverService.Builder()
-                    .usingDriverExecutable(new File("DriverJars/chromedriver.exe"))
+                    .usingDriverExecutable(new File("driverJars/chromedriver.exe"))
                     .usingAnyFreePort()
                     .build();
             service.start();
@@ -35,7 +35,7 @@ public class BrowserInstance {
             option.addArguments("--incognito");
             driver = new RemoteWebDriver(service.getUrl(), option);
         } else if (browserName.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "DriverJars/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver.exe");
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("remote")) {
             DesiredCapabilities capability = new DesiredCapabilities();
@@ -47,10 +47,10 @@ public class BrowserInstance {
             driver = new RemoteWebDriver(browserStackUrl, capability);
 
         } else if (browserName.equalsIgnoreCase("EDGE")) {
-            System.setProperty("webdriver.edge.driver", "DriverJars/MicrosoftWebDriver.exe");
+            System.setProperty("webdriver.edge.driver", "driverJars/MicrosoftWebDriver.exe");
             driver = new EdgeDriver();
         } else if (browserName.equalsIgnoreCase("IE")) {
-            System.setProperty("webdriver.ie.driver", "DriverJars/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "driverJars/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
