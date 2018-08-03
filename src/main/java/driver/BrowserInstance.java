@@ -27,7 +27,7 @@ public class BrowserInstance {
     public static void initiateDriver(String browserName) throws IOException {
         if (browserName.equalsIgnoreCase("chrome")) {
             service = new ChromeDriverService.Builder()
-                    .usingDriverExecutable(new File("driverJars/chromedriver"))
+                    .usingDriverExecutable(new File("driverJars/chromedriver.exe"))
                     .usingAnyFreePort()
                     .build();
             service.start();
