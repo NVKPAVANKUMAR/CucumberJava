@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8759254392,
+  "duration": 8227513833,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,39 +47,39 @@ formatter.match({
   "location": "Steps.userEntersValidUsername()"
 });
 formatter.result({
-  "duration": 142362617,
+  "duration": 149629028,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.userEntersValidPassword()"
 });
 formatter.result({
-  "duration": 65543908,
+  "duration": 63301919,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.clicksOnLoginButton()"
 });
 formatter.result({
-  "duration": 3172960848,
+  "duration": 3350383487,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.userMustBeNavigatedToDashboardpage()"
 });
 formatter.result({
-  "duration": 4263755437,
+  "duration": 3140753231,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.clicksOnLogoutButtonAndNavigatesToLoginPageAgain()"
 });
 formatter.result({
-  "duration": 24366628,
+  "duration": 29234038,
   "status": "passed"
 });
 formatter.after({
-  "duration": 377824957,
+  "duration": 385631813,
   "status": "passed"
 });
 });
