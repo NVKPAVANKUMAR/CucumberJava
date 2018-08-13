@@ -24,7 +24,7 @@ public class BrowserInstance {
     private static ChromeDriverService service;
     private static ChromeOptions option;
 
-    public static void initiateDriver(String browserName) throws IOException {
+    public static WebDriver initiateDriver(String browserName) throws IOException {
         if (browserName.equalsIgnoreCase("chrome")) {
             service = new ChromeDriverService.Builder()
                     .usingDriverExecutable(new File("driverJars/chromedriver.exe"))
@@ -33,10 +33,10 @@ public class BrowserInstance {
             service.start();
             option = new ChromeOptions();
             option.addArguments("--incognito");
-            driver = new RemoteWebDriver(service.getUrl(), option);
+            return driver = new RemoteWebDriver(service.getUrl(), option);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver.exe");
-            driver = new FirefoxDriver();
+            return driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("remote")) {
             DesiredCapabilities capability = new DesiredCapabilities();
             capability.setPlatform(Platform.WINDOWS);
@@ -44,20 +44,28 @@ public class BrowserInstance {
             capability.setVersion("66");
             capability.setCapability("browserstack.debug", "true");
             URL browserStackUrl = new URL(URL);
-            driver = new RemoteWebDriver(browserStackUrl, capability);
-
+            return driver = new RemoteWebDriver(browserStackUrl, capability);
         } else if (browserName.equalsIgnoreCase("EDGE")) {
             System.setProperty("webdriver.edge.driver", "driverJars/MicrosoftWebDriver.exe");
-            driver = new EdgeDriver();
+            return driver = new EdgeDriver();
         } else if (browserName.equalsIgnoreCase("IE")) {
             System.setProperty("webdriver.ie.driver", "driverJars/IEDriverServer.exe");
-            driver = new InternetExplorerDriver();
+            return driver = new InternetExplorerDriver();
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+
+        return null;
     }
 
+
     public static void openUrl(String url) {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         driver.get(url);
     }
+
+    public static void closeBrowser() {
+        driver.quit();
+    }
+
+
 }

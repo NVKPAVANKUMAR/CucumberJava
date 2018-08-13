@@ -1,6 +1,5 @@
 package pages;
 
-import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -15,24 +14,27 @@ public class LoginPage {
     @FindBy(id = "MemberLoginForm_LoginForm_action_doLogin")
     private WebElement loginButton;
 
-    public void input_Username(String usn, ExtentTest logger) {
+    @FindBy(id = "MemberLoginForm_LoginForm_error")
+    private WebElement errorMsg;
+
+    public void input_Username(String usn) {
         usernameField.sendKeys(usn);
-        logger.info("Username entered");
     }
 
-    public void input_password(String pass,ExtentTest logger) {
+    public void input_password(String pass) {
         passwordField.sendKeys(pass);
-        logger.info("Password entered");
     }
 
-    public void click_LoginButton(ExtentTest logger) {
+    public void click_LoginButton() {
         loginButton.click();
-        logger.info("Logout Button clicked");
     }
 
-    public boolean status_LoginButton(ExtentTest logger){
-       return loginButton.isDisplayed();
+    public boolean status_LoginButton() {
+        return loginButton.isDisplayed();
+    }
 
+    public String getErrorMsgText() {
+        return errorMsg.getText();
     }
 
 }
