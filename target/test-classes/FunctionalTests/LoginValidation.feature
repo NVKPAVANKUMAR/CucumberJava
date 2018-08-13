@@ -5,3 +5,9 @@ Feature: guru99 Demopage Login
     Given I am on the Guru99 Demopage
     When enter blank details for Registration
     Then error message shown
+
+  Scenario:  Register On Guru99 Demopage with email
+    Given I am on the Guru99 Demopage
+    When enter valid emailid details for Registration
+    Then login details shown
+

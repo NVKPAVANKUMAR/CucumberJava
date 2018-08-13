@@ -13,7 +13,9 @@ import utilities.ConfigParser;
 
 import java.io.IOException;
 
+import static driver.BrowserInstance.initiateDriver;
 import static driver.BrowserInstance.openUrl;
+import static utilities.ReportGenerator.logger;
 import static utilities.ReportGenerator.startTest;
 
 public class Steps {
@@ -26,28 +28,27 @@ public class Steps {
     @Given("^I am on the silverstripe Demopage$")
     public void iAmOnThesilverstripe_Demopage() throws IOException {
         browserInstance = new BrowserInstance();
-        driver = browserInstance.initiateDriver("chrome");
+        driver = initiateDriver(ConfigParser.fetchProperity("browser").toString());
         pageObjectManager = new PageObjectManager(driver);
         loginPage = pageObjectManager.getHomePage();
         dashboardPage = pageObjectManager.getDashboardPage();
         openUrl(ConfigParser.fetchProperity("testurl").toString());
-
-
+        startTest("Demosilverstripe -> loginNlogout Functionality");
     }
 
     @When("^user enters valid username$")
     public void userEntersValidUsername() {
-        loginPage.input_Username(ConfigParser.fetchProperity("username").toString());
+        loginPage.input_Username(ConfigParser.fetchProperity("username").toString(), logger);
     }
 
     @And("^user enters valid password$")
     public void userEntersValidPassword() {
-        loginPage.input_password(ConfigParser.fetchProperity("password").toString());
+        loginPage.input_password(ConfigParser.fetchProperity("password").toString(), logger);
     }
 
     @And("^Clicks on login button$")
     public void clicksOnLoginButton() {
-        loginPage.click_LoginButton();
+        loginPage.click_LoginButton(logger);
     }
 
     @Then("^user must be navigated to dashboardpage$")
@@ -59,6 +60,7 @@ public class Steps {
     @Then("^Navigates to Login page Again$")
     public void clicksOnLogoutButtonAndNavigatesToLoginPageAgain() {
         assert loginPage.status_LoginButton() == true;
+        logger.pass("Login & Logout Functionality Success");
     }
 
 

@@ -11,7 +11,9 @@ import utilities.ConfigParser;
 
 import java.io.IOException;
 
+import static driver.BrowserInstance.initiateDriver;
 import static driver.BrowserInstance.openUrl;
+import static utilities.ReportGenerator.logger;
 import static utilities.ReportGenerator.startTest;
 
 public class DemoGuru99_Steps {
@@ -24,22 +26,33 @@ public class DemoGuru99_Steps {
     @Given("^I am on the Guru99 Demopage$")
     public void iAmOnTheGuru_Demopage() throws IOException {
         browserInstance = new BrowserInstance();
-        driver = browserInstance.initiateDriver("chrome");
+        driver = initiateDriver(ConfigParser.fetchProperity("browser").toString());
         pageObjectManager = new PageObjectManager(driver);
         demoGuru99Page = pageObjectManager.getDemoGuru99Page();
         openUrl(ConfigParser.fetchProperity("guru99url").toString());
-        startTest(new Object() {
-        }.getClass().getEnclosingMethod().getName());
+        startTest("DemoGuru99 Bank Login Functionality");
     }
 
     @When("^enter blank details for Registration$")
     public void enterBlankDetailsForRegistration() {
-        demoGuru99Page.enterEmailId("");
-        demoGuru99Page.clickOnLoginButton();
+        demoGuru99Page.enterEmailId("", logger);
+        demoGuru99Page.clickOnLoginButton(logger);
     }
 
     @Then("^error message shown$")
     public void errorMessageShown() {
-        assert demoGuru99Page.isErrorMsgDisplayed() == true;
+        assert demoGuru99Page.isErrorMsgDisplayed();
+    }
+
+
+    @When("^enter valid emailid details for Registration$")
+    public void enterValidEmailidDetailsForRegistration() {
+        demoGuru99Page.enterEmailId(ConfigParser.fetchProperity("guru99mailid").toString(), logger);
+        demoGuru99Page.clickOnLoginButton(logger);
+    }
+
+    @Then("^login details shown$")
+    public void loginDetailsShown() {
+        assert !demoGuru99Page.isErrorMsgDisplayed();
     }
 }

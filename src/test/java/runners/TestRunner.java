@@ -1,17 +1,19 @@
 package runners;
 
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-        features = "src/test/resources/FunctionalTests",
-        glue = {"stepDefinitions"},
-        plugin = {"pretty", "html:target/cucumber-reports"},
-        monochrome = true)
 
+@CucumberOptions(plugin = {
+        "pretty", "html:target/cucumberHtmlReport",
+        "html:target/cucumberHtmlReport",     //  for html result
+        "pretty:target/cucumber-json-report.json"   // for json result
+},
+        features = "src/test/resources/FunctionalTests",
+        glue = {"stepDefinitions" // user step definitions package
+        })
 public class TestRunner {
 
 }
