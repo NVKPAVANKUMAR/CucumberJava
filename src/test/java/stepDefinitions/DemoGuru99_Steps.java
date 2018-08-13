@@ -21,11 +21,10 @@ public class DemoGuru99_Steps {
     public WebDriver driver;
     private PageObjectManager pageObjectManager;
     private DemoGuru99Page demoGuru99Page;
-    private BrowserInstance browserInstance;
 
     @Given("^I am on the Guru99 Demopage$")
     public void iAmOnTheGuru_Demopage() throws IOException {
-        browserInstance = new BrowserInstance();
+
         driver = initiateDriver(ConfigParser.fetchProperity("browser").toString());
         pageObjectManager = new PageObjectManager(driver);
         demoGuru99Page = pageObjectManager.getDemoGuru99Page();

@@ -23,11 +23,9 @@ public class Steps {
     DashboardPage dashboardPage;
     LoginPage loginPage;
     PageObjectManager pageObjectManager;
-    BrowserInstance browserInstance;
 
     @Given("^I am on the silverstripe Demopage$")
     public void iAmOnThesilverstripe_Demopage() throws IOException {
-        browserInstance = new BrowserInstance();
         driver = initiateDriver(ConfigParser.fetchProperity("browser").toString());
         pageObjectManager = new PageObjectManager(driver);
         loginPage = pageObjectManager.getHomePage();
