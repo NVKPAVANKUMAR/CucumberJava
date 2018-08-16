@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e5bde0b-17a5-4627-94fd-ce91e681dbb9" name="Default" comment="" />
+    <list default="true" id="3e5bde0b-17a5-4627-94fd-ce91e681dbb9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,18 +40,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
               <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoGuru99_CredentialsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DemoGuru99_CredentialsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,11 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extent-config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="extent-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration/extent-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="-430">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="115" column="8" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -172,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/DashboardPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/FunctionalTests/End2End_Test.feature" />
         <option value="$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_CredentialsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/DemoGuru99_CredentialsPage.java" />
@@ -187,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -198,8 +200,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="674" />
-    <option name="y" value="76" />
+    <option name="x" value="-66" />
+    <option name="y" value="-4" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -314,28 +316,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="FunctionalTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -656,9 +636,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CucumberFramework.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -787,13 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1293">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -948,10 +918,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/configuration/extent-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="-430">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="115" column="8" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
         </state>
       </provider>
     </entry>
