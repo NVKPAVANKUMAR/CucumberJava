@@ -1,4 +1,6 @@
-Feature: guru99 Demopage Login
+@LoginProfile
+
+Feature: Guru99 Demopage Login
   To Login in Demopage we have to enter login details
 
   Scenario: Register On Guru99 Demopage without email

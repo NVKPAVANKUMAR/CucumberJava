@@ -20,7 +20,7 @@ public class BrowserInstance {
     public static final String USERNAME = "nvkpavankumar2";
     public static final String AUTOMATE_KEY = "AET4cyqprWngmzYvyK8m";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
-    public  static WebDriver driver;
+    public static WebDriver driver;
     private static ChromeDriverService service;
     private static ChromeOptions option;
 

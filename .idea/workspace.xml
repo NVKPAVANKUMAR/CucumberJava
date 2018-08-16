@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5bde0b-17a5-4627-94fd-ce91e681dbb9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DemoGuru99_CredentialsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/config.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ReportGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json-report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumberHtmlReport/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FunctionalTests/LoginValidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FunctionalTests/LoginValidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/DemoGuru99_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/DemoGuru99_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,25 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.Properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configuration/config.Properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="12" selection-start-line="6" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -42,8 +50,8 @@
       <file leaf-file-name="End2End_Test.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/End2End_Test.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="375">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -51,20 +59,33 @@
       <file leaf-file-name="LoginValidation.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="50">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserInstance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java">
+      <file leaf-file-name="DemoGuru99_CredentialsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DemoGuru99_CredentialsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            <state relative-caret-position="250">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="36" />
               <folding>
-                <element signature="e#2849#2850#0" expanded="true" />
-                <element signature="e#2878#2879#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoGuru99Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,14 +94,35 @@
       <file leaf-file-name="DemoGuru99_Steps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-483">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-                <element signature="e#1845#1846#0" expanded="true" />
-                <element signature="e#1912#1913#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extent-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configuration/extent-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -88,38 +130,26 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="384">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ConfigParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Steps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Steps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="194">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#1696#1697#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#2055#2056#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,6 +165,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cucum</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\src\test\java\stepDefinitions</dir>
     </dirStrings>
@@ -159,19 +192,24 @@
         <option value="$PROJECT_DIR$/src/test/resources/FunctionalTests/DataDriven_Test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoSilverStripe_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoSilverstripe_Steps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/DemoGuru99_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Demo_Steps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/DashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java" />
         <option value="$PROJECT_DIR$/src/test/resources/FunctionalTests/End2End_Test.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature" />
         <option value="$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_CredentialsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DemoGuru99_CredentialsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/ReportGenerator.java" />
         <option value="$PROJECT_DIR$/configuration/config.Properties" />
+        <option value="$PROJECT_DIR$/configuration/extent-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" />
       </list>
@@ -185,8 +223,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="42" />
-    <option name="y" value="90" />
+    <option name="x" value="674" />
+    <option name="y" value="76" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -196,14 +234,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -302,6 +343,17 @@
             <path>
               <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -309,31 +361,33 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/commons-io-2.6/commons-io-2.6.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/junit-4.8.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\src\test\resources\FunctionalTests" />
+      <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\src\test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="driver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework" />
       <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\autoit_exe" />
       <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\driverJars" />
       <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="driver" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\src\test\resources\FunctionalTests" />
-      <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\CucumberFramework\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,11 +402,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: LoginValidation">
+  <component name="RunManager" selected="Mvn.TestRunner.feature">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Feature: End2End_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: End2End_Test (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CucumberFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -363,32 +417,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: LoginValidation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: LoginValidation (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CucumberFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Scenario: Register On Guru99 Demopage without email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="CucumberFramework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Register On Guru99 Demopage without email$&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Scenario: User is on Loginpage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="CucumberFramework" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User is on Loginpage$&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -457,20 +489,72 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="All Tests in CucumberFramework" type="mvnRunConfigurationType" factoryName="Mvn" temporary="true" runType="run_test">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test-compile" />
+                <option value="surefire:test" />
+                <option value="-DforkCount=8" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="TestRunner.feature" type="mvnRunConfigurationType" factoryName="Mvn" temporary="true" runType="run_test">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test-compile" />
+                <option value="surefire:test" />
+                <option value="-Dtest=runners.TestRunner#feature" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <list>
       <item itemvalue="JUnit.TestRunner" />
-      <item itemvalue="Cucumber java.Scenario: Register On Guru99 Demopage without email" />
-      <item itemvalue="Cucumber java.Feature: End2End_Test" />
-      <item itemvalue="Cucumber java.Scenario: User is on Loginpage" />
-      <item itemvalue="Cucumber java.Feature: LoginValidation" />
+      <item itemvalue="Cucumber java.Feature: End2End_Test (1)" />
+      <item itemvalue="Cucumber java.Feature: LoginValidation (1)" />
+      <item itemvalue="Mvn.All Tests in CucumberFramework" />
+      <item itemvalue="Mvn.TestRunner.feature" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: LoginValidation" />
-        <item itemvalue="Cucumber java.Feature: End2End_Test" />
+        <item itemvalue="Mvn.TestRunner.feature" />
+        <item itemvalue="Mvn.All Tests in CucumberFramework" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber java.Scenario: Register On Guru99 Demopage without email" />
-        <item itemvalue="Cucumber java.Scenario: User is on Loginpage" />
+        <item itemvalue="Cucumber java.Feature: LoginValidation (1)" />
+        <item itemvalue="Cucumber java.Feature: End2End_Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -488,35 +572,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2018.08.13 at 18h 29m 51s.xml">
+    <history-entry file="TestRunner - 2018.08.16 at 11h 38m 07s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.13 at 18h 38m 21s.xml">
+    <history-entry file="TestRunner - 2018.08.16 at 11h 41m 22s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.13 at 18h 39m 59s.xml">
+    <history-entry file="TestRunner - 2018.08.16 at 11h 42m 34s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.08.13 at 18h 40m 17s.xml">
+    <history-entry file="TestRunner - 2018.08.16 at 11h 43m 17s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__End2End_Test - 2018.08.13 at 18h 40m 59s.xml">
-      <configuration name="Feature: End2End_Test" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__End2End_Test_(1) - 2018.08.16 at 11h 43m 58s.xml">
+      <configuration name="Feature: End2End_Test (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__LoginValidation - 2018.08.13 at 18h 47m 12s.xml">
-      <configuration name="Feature: LoginValidation" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__LoginValidation_(1) - 2018.08.16 at 11h 44m 58s.xml">
+      <configuration name="Feature: LoginValidation (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__End2End_Test - 2018.08.13 at 18h 51m 29s.xml">
-      <configuration name="Feature: End2End_Test" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__LoginValidation_(1) - 2018.08.16 at 11h 46m 00s.xml">
+      <configuration name="Feature: LoginValidation (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__End2End_Test - 2018.08.13 at 18h 55m 34s.xml">
-      <configuration name="Feature: End2End_Test" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__LoginValidation_(1) - 2018.08.16 at 11h 49m 57s.xml">
+      <configuration name="Feature: LoginValidation (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__LoginValidation - 2018.08.13 at 18h 59m 24s.xml">
-      <configuration name="Feature: LoginValidation" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2018.08.16 at 11h 50m 11s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__LoginValidation - 2018.08.13 at 19h 03m 40s.xml">
-      <configuration name="Feature: LoginValidation" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2018.08.16 at 11h 50m 54s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -532,11 +616,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32913387" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.87244093" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.83622044" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.8062992" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19912152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20644216" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="7" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
       <window_info anchor="right" id="Maven-2 Build" order="3" />
@@ -554,17 +638,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven-2 Build" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.58146966" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18594436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -574,13 +658,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.8330709" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32913387" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Maven-2 Build" order="8" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -588,72 +672,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/ReportGenerator.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/ReportGenerator.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumTests/E2E_Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/End2End_Test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumTests/E2E_Test.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumTests/E2E_Test.java" />
-    <entry file="file://$PROJECT_DIR$/CucumberFramework.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/seleniumTests/E2E_Test.java" />
     <entry file="file://$PROJECT_DIR$/CucumberFramework.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -728,21 +750,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Demo_Steps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Demo_Steps.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/CucumberOptions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#2849#2850#0" expanded="true" />
+            <element signature="e#2878#2879#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="190">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#416#417#0" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
@@ -752,29 +789,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/TestNGCucumberRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/CucumberFeatureWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/STMExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1293">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/configuration/Config.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/reporter/configuration/Theme.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/html-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/extentx-config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.Properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/DashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="525">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/CucumberOptions.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DemoGuru99_CredentialsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="250">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/End2End_Test.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ReportGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#1237#1238#0" expanded="true" />
             <element signature="e#1293#1294#0" expanded="true" />
@@ -786,107 +957,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DemoGuru99Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="625">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/configuration/extent-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding>
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2878#2879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/End2End_Test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FunctionalTests/LoginValidation.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/config.Properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" selection-start-line="6" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/DemoGuru99_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

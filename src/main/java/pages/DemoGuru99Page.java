@@ -1,6 +1,5 @@
 package pages;
 
-import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -15,14 +14,13 @@ public class DemoGuru99Page {
     @FindBy(id = "message9")
     private WebElement errorMsg;
 
-    public void enterEmailId(String mailId, ExtentTest logger) {
+    public void enterEmailId(String mailId) {
         emailIdField.sendKeys(mailId);
-        logger.info("Emailid entered");
+
     }
 
-    public void clickOnLoginButton(ExtentTest logger) {
+    public void clickOnLoginButton() {
         submitButton.click();
-        logger.info("Login Button clicked");
     }
 
     public boolean isErrorMsgDisplayed() {
