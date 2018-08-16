@@ -106,7 +106,8 @@
         </dependency>
     </dependencies>
     <properties>
-        <webdriver.chrome>/home/gede/bin/chromedriver</webdriver.chrome>
+        <webdriver.chrome>driverJars/chromedriver</webdriver.chrome>
+        <webdriver.gecko>driverJars/geckodriver</webdriver.gecko>
     </properties>
     <build>
         <plugins>
@@ -127,6 +128,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <webdriver.chrome.driver>${webdriver.chrome}</webdriver.chrome.driver>
+                        <webdriver.gecko.driver>${webdriver.gecko}</webdriver.gecko.driver>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

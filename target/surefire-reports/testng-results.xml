@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="runners.TestRunner" duration-ms="44198" started-at="2018-08-16T10:47:36Z" finished-at="2018-08-16T10:48:20Z">
+  <suite name="runners.TestRunner" duration-ms="41569" started-at="2018-08-16T11:31:23Z" finished-at="2018-08-16T11:32:05Z">
     <groups>
     </groups>
-    <test name="Command line test 8127d068-8654-4efd-ac0f-e692ef7ecfd8" duration-ms="44198" started-at="2018-08-16T10:47:36Z" finished-at="2018-08-16T10:48:20Z">
-    </test> <!-- Command line test 8127d068-8654-4efd-ac0f-e692ef7ecfd8 -->
+    <test name="Command line test c14d3ef1-4b3e-44ad-935f-63f57a978406" duration-ms="41569" started-at="2018-08-16T11:31:23Z" finished-at="2018-08-16T11:32:05Z">
+    </test> <!-- Command line test c14d3ef1-4b3e-44ad-935f-63f57a978406 -->
   </suite> <!-- runners.TestRunner -->
 </testng-results>
