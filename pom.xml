@@ -103,8 +103,8 @@
         </dependency>
     </dependencies>
     <properties>
-        <webdriver.chrome>driverJars/chromedriver</webdriver.chrome>
-        <webdriver.gecko>driverJars/geckodriver</webdriver.gecko>
+        <webdriver.chrome>driverJars/chromedriver.exe</webdriver.chrome>
+        <webdriver.gecko>driverJars/geckodriver.exe</webdriver.gecko>
     </properties>
     <build>
         <plugins>

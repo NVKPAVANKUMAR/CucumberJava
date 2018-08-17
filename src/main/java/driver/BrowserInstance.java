@@ -35,7 +35,7 @@ public class BrowserInstance {
             option = new ChromeOptions();
             option.addArguments("--incognito");
             return driver = new RemoteWebDriver(service.getUrl(), option);*/
-            System.setProperty("webdriver.chrome.driver", "driverJars/chromedriver.exe");
+           // System.setProperty("webdriver.chrome.driver", "driverJars/chromedriver.exe");
             return driver = new ChromeDriver();
 
         } else if (browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").toUpperCase().contains("LINUX")) {
@@ -43,7 +43,7 @@ public class BrowserInstance {
             return driver = new ChromeDriver();
         }
         else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").toUpperCase().contains("WINDOWS")) {
-            System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver.exe");
+           // System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver.exe");
             return driver = new FirefoxDriver();
         }
         else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").toUpperCase().contains("LINUX")) {
