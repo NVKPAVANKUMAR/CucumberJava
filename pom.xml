@@ -8,9 +8,6 @@
     <artifactId>CucumberFramework</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-testng</artifactId>
@@ -106,8 +103,8 @@
         </dependency>
     </dependencies>
     <properties>
-        <webdriver.chrome>driverJars/chromedriver</webdriver.chrome>
-        <webdriver.gecko>driverJars/geckodriver</webdriver.gecko>
+        <webdriver.chrome>driverJars/chromedriver.exe</webdriver.chrome>
+        <webdriver.gecko>driverJars/geckodriver.exe</webdriver.gecko>
     </properties>
     <build>
         <plugins>
@@ -124,12 +121,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.16</version>
+                <version>2.19.1</version>
                 <configuration>
                     <systemPropertyVariables>
                         <webdriver.chrome.driver>${webdriver.chrome}</webdriver.chrome.driver>
                         <webdriver.gecko.driver>${webdriver.gecko}</webdriver.gecko.driver>
                     </systemPropertyVariables>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
         </plugins>

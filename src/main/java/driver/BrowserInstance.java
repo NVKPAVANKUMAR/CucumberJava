@@ -2,6 +2,7 @@ package driver;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -26,16 +27,17 @@ public class BrowserInstance {
 
     public static WebDriver initiateDriver(String browserName) throws IOException {
         if (browserName.equalsIgnoreCase("chrome")) {
-            service = new ChromeDriverService.Builder()
-                    .usingDriverExecutable(new File("driverJars/chromedriver.exe"))
+           /*service = new ChromeDriverService.Builder()
+                    .usingDriverExecutable(new File("resources/chromedriver.exe"))
                     .usingAnyFreePort()
                     .build();
             service.start();
             option = new ChromeOptions();
             option.addArguments("--incognito");
-            return driver = new RemoteWebDriver(service.getUrl(), option);
+            return driver = new RemoteWebDriver(service.getUrl(), option);*/
+            return driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver.exe");
+          //  System.setProperty("webdriver.gecko.driver", "resources/geckodriver.exe");
             return driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("remote")) {
             DesiredCapabilities capability = new DesiredCapabilities();

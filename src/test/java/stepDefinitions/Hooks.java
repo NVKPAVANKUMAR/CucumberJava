@@ -9,12 +9,11 @@ public class Hooks {
 
     @Before
     public void openBrowser() {
-        //  startReport();
     }
 
     @After
     public void tearDown() {
-        // endReport();
+
         closeBrowser();
     }
 }

@@ -1,1 +1,8 @@
+pages\LoginPage.class
+utilities\ScreenshotUtility.class
+pages\DashboardPage.class
+managers\PageObjectManager.class
+driver\BrowserInstance.class
+pages\DemoGuru99Page.class
+utilities\ConfigParser.class
 pages\DemoGuru99_CredentialsPage.class
