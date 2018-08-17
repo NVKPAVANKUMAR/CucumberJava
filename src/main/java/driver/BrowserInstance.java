@@ -26,7 +26,7 @@ public class BrowserInstance {
     private static ChromeOptions option;
 
     public static WebDriver initiateDriver(String browserName) throws IOException {
-        if (browserName.equalsIgnoreCase("chrome")) {
+        if (browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").toUpperCase().contains("WINDOWS")) {
            /*service = new ChromeDriverService.Builder()
                     .usingDriverExecutable(new File("resources/chromedriver.exe"))
                     .usingAnyFreePort()
@@ -35,11 +35,22 @@ public class BrowserInstance {
             option = new ChromeOptions();
             option.addArguments("--incognito");
             return driver = new RemoteWebDriver(service.getUrl(), option);*/
+            System.setProperty("webdriver.chrome.driver", "driverJars/chromedriver.exe");
             return driver = new ChromeDriver();
-        } else if (browserName.equalsIgnoreCase("firefox")) {
-          //  System.setProperty("webdriver.gecko.driver", "resources/geckodriver.exe");
+
+        } else if (browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").toUpperCase().contains("LINUX")) {
+            System.setProperty("webdriver.chrome.driver", "driverJars/chromedriver");
+            return driver = new ChromeDriver();
+        }
+        else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").toUpperCase().contains("WINDOWS")) {
+            System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver.exe");
             return driver = new FirefoxDriver();
-        } else if (browserName.equalsIgnoreCase("remote")) {
+        }
+        else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").toUpperCase().contains("LINUX")) {
+            System.setProperty("webdriver.gecko.driver", "driverJars/geckodriver");
+            return driver = new FirefoxDriver();
+        }
+        else if (browserName.equalsIgnoreCase("remote")) {
             DesiredCapabilities capability = new DesiredCapabilities();
             capability.setPlatform(Platform.WINDOWS);
             capability.setBrowserName("chrome");
