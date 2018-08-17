@@ -39,7 +39,7 @@ public class BrowserInstance {
             return driver = new ChromeDriver();
 
         } else if (browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").toUpperCase().contains("LINUX")) {
-           // System.setProperty("webdriver.chrome.driver", "driverJars/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "driverJars/chromedriver");
             return driver = new ChromeDriver();
         }
         else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").toUpperCase().contains("WINDOWS")) {
