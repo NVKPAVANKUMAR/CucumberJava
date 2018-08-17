@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5bde0b-17a5-4627-94fd-ce91e681dbb9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration/config.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runners.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 12cdb7a6-9417-4acb-84f2-a42b73f976e0.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 35aec64a-c4d7-47cc-96cc-0b29cc68f2bb.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 46a3f5f0-a16a-4b9a-b22e-602eed74f929.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 4bc5a1ca-6245-4c5c-b9e7-146953d25dff.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 5c855a7b-2a52-42b8-8a5b-5b5ca4dd92c4.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 5e1ff702-f15c-44d9-bfb9-c088986cadd3.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 671187e6-e33b-4aa2-babc-9c7090bbed10.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 68bacccc-8685-41b7-8c83-0c63d1753495.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 7b954123-7a77-4d8b-a327-db72f0c2aee6.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 8127d068-8654-4efd-ac0f-e692ef7ecfd8.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 85ad60a1-3b18-4e6a-a047-c737b619c592.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test 8a879861-8c6f-4782-a91d-c1fa5dc7fa7e.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test aec851f1-6c6c-4ddb-ae5c-141f31d46952.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test c14d3ef1-4b3e-44ad-935f-63f57a978406.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test e8f8eef8-8d52-4cf4-a45c-742faf3b2c3e.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/Command line test e970db2f-82e6-4d87-ae85-a3a07d8ac0b8.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/runners.TestRunner/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 12cdb7a6-9417-4acb-84f2-a42b73f976e0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 12cdb7a6-9417-4acb-84f2-a42b73f976e0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 35aec64a-c4d7-47cc-96cc-0b29cc68f2bb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 35aec64a-c4d7-47cc-96cc-0b29cc68f2bb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 46a3f5f0-a16a-4b9a-b22e-602eed74f929.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 46a3f5f0-a16a-4b9a-b22e-602eed74f929.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 4bc5a1ca-6245-4c5c-b9e7-146953d25dff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 4bc5a1ca-6245-4c5c-b9e7-146953d25dff.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 5c855a7b-2a52-42b8-8a5b-5b5ca4dd92c4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 5c855a7b-2a52-42b8-8a5b-5b5ca4dd92c4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 5e1ff702-f15c-44d9-bfb9-c088986cadd3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 5e1ff702-f15c-44d9-bfb9-c088986cadd3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 671187e6-e33b-4aa2-babc-9c7090bbed10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 671187e6-e33b-4aa2-babc-9c7090bbed10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 68bacccc-8685-41b7-8c83-0c63d1753495.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 68bacccc-8685-41b7-8c83-0c63d1753495.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 7b954123-7a77-4d8b-a327-db72f0c2aee6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 7b954123-7a77-4d8b-a327-db72f0c2aee6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 8127d068-8654-4efd-ac0f-e692ef7ecfd8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 8127d068-8654-4efd-ac0f-e692ef7ecfd8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 85ad60a1-3b18-4e6a-a047-c737b619c592.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 85ad60a1-3b18-4e6a-a047-c737b619c592.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 8a879861-8c6f-4782-a91d-c1fa5dc7fa7e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test 8a879861-8c6f-4782-a91d-c1fa5dc7fa7e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test aec851f1-6c6c-4ddb-ae5c-141f31d46952.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test aec851f1-6c6c-4ddb-ae5c-141f31d46952.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test c14d3ef1-4b3e-44ad-935f-63f57a978406.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test c14d3ef1-4b3e-44ad-935f-63f57a978406.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test e8f8eef8-8d52-4cf4-a45c-742faf3b2c3e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test e8f8eef8-8d52-4cf4-a45c-742faf3b2c3e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test e970db2f-82e6-4d87-ae85-a3a07d8ac0b8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/Command line test e970db2f-82e6-4d87-ae85-a3a07d8ac0b8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.TestRunner/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -146,7 +79,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1921">
+            <state relative-caret-position="-2661">
               <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
@@ -164,10 +97,11 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="370">
+              <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,8 +110,8 @@
       <file leaf-file-name="config.Properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configuration/config.Properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="175">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -644,7 +578,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32913387" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.83622044" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42992127" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.8047244" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -928,30 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/BrowserInstance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -963,10 +873,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding>
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2661">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/configuration/config.Properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="175">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
