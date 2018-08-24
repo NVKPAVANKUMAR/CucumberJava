@@ -50,5 +50,5 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       # run tests!
-      - run: chmod +x driverJars/chromedriver
+      - run: chmod 777 driverJars/chromedriver.exe
       - run: mvn integration-test
