@@ -28,7 +28,6 @@ public class Steps {
         loginPage = pageObjectManager.getHomePage();
         dashboardPage = pageObjectManager.getDashboardPage();
         openUrl(ConfigParser.fetchProperity("testurl").toString());
-        //   startTest("Demosilverstripe -> loginNlogout Functionality");
     }
 
     @When("^user enters valid username$")
@@ -54,7 +53,7 @@ public class Steps {
 
     @Then("^Navigates to Login page Again$")
     public void clicksOnLogoutButtonAndNavigatesToLoginPageAgain() {
-        assert loginPage.status_LoginButton() == true;
+        assert loginPage.status_LoginButton();
     }
 
 
